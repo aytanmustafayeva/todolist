@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <main class="main">
+      <div class="container">
+        <form class="todolist">
+          <div class="up"></div>
+          <div class="todo-input">
+            <h2>To-do list</h2>
+            <i class="fa-solid fa-arrow-down-wide-short"></i>
+            <div class="input-parent">
+              <input type="text" placeholder="to-do-list" /><i
+                class="fa-regular fa-circle-xmark"
+              ></i>
+              <ul></ul>
+            </div>
+
+            <button><i class="fa-solid fa-plus"></i> Добавить</button>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
